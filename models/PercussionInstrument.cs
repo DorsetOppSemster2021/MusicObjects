@@ -17,7 +17,8 @@ namespace MusicObjects.models
 
         public override string Play()
         {
-            throw new NotImplementedException();
+            return $"I am playing a Drum";
+
         }
 
     }

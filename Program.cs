@@ -9,9 +9,12 @@ namespace MusicObjects
         {
             Console.WriteLine("The Dorset Orchestra");
 
-            Guitar myGuitar = new();
+            //Guitar myGuitar = new();
 
-            Console.WriteLine(myGuitar.Play());
+            //Console.WriteLine(myGuitar.Play());
+
+            Orchestra orchestra = new();
+            orchestra.Play();
         }
     }
 }

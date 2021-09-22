@@ -38,10 +38,12 @@ namespace MusicObjects.models
         {
             get => throw new NotImplementedException(); set => throw new NotImplementedException();
         }
-        public override string Play()
+       
+            public override string Play()
         {
-            throw new NotImplementedException();
+            return $"I am playing a Cello with {numberOfStrings} strings";
         }
+    
     }
 
 
@@ -54,7 +56,7 @@ namespace MusicObjects.models
         }
         public override string Play()
         {
-            throw new NotImplementedException();
+            return $"I am playing a Harp with {numberOfStrings} strings";
         }
     }
 }
